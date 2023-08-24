@@ -12,6 +12,7 @@ namespace LectureAssinment
         {
             string name = "Mark";
             var date = DateTime.Now;
+            //commnet  
 
             // Composite formatting:
             Console.WriteLine("Hello, {0}! Today is {1}, it's {2:HH:mm} now.", name, date.DayOfWeek, date);
