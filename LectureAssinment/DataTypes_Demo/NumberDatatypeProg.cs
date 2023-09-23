@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.DataTypes_Demo
 {
-     class NumberDatatypeProg
+    class NumberDatatypeProg
     {
         static void Main(string[] args)
         {
@@ -16,9 +16,9 @@ namespace LectureAssinment
             //short s3 = 35000;//Compile-time error: Constant value '35000' cannot be converted to a 'short'
             ushort us1 = 65535;
             //ushort us2 = -32000; //Compile-time error: Constant value '-32000' cannot be converted to a 'ushort'
-            Console.WriteLine("s1 = "+ s1);
-            Console.WriteLine("s2 = "+ s2);
-            Console.WriteLine("us1 ="+ us1);
+            Console.WriteLine("s1 = " + s1);
+            Console.WriteLine("s2 = " + s2);
+            Console.WriteLine("us1 =" + us1);
 
             //The int data type is 32-bit signed integer. It can store numbers from -2,147,483,648 to 2,147,483,647.
             int i = -2147483648;
@@ -35,7 +35,7 @@ namespace LectureAssinment
             long l1 = -9223372036854775808;
             long l2 = 9223372036854775807;
             Console.WriteLine(l1);
-            Console.WriteLine( l2);
+            Console.WriteLine(l2);
         }
     }
 }

@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.LoopsProgram
 {
-     class ForLoopDemo1
+    class ForLoopDemo2
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 10; i++)
+            for (int i = 100; i >= 50; i--)
             {
-                Console.WriteLine("i ="+ i);
-                Console.WriteLine("Hello to all!!!");
+                Console.WriteLine($"Hello to all {i}");
             }
 
         }

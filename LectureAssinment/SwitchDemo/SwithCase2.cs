@@ -2,37 +2,35 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.SwitchDemo
 {
-     class SwitchCase1
+    class SwithCase2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("A.English");
-            Console.WriteLine("B.Hindi");
-            Console.WriteLine("C.Marathi");
-            
+            Console.WriteLine("101.English");
+            Console.WriteLine("102.Hindi");
+            Console.WriteLine("103.Marathi");
+
             Console.WriteLine("Select your option");
-            char ch = Convert.ToChar(Console.ReadLine());
+            int ch = Convert.ToInt32(Console.ReadLine());
 
             switch (ch)
             {
-                case 'A':
+                case 101:
                     Console.WriteLine("You have selected English language");
                     break;
-                case 'B':
+                case 102:
                     Console.WriteLine("You have selected Hindi language");
                     break;
-                case 'C':
+                case 103:
                     Console.WriteLine("You have selected Marathi language");
                     break;
                 default:
                     break;
             }
-
         }
     }
 }

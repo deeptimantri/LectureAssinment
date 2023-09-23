@@ -5,7 +5,6 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>LectureAssinment.SwithCase2</StartupObject>
+    <StartupObject>LectureAssinment.ClassesAndObjects2.AbstractClsDemo</StartupObject>
   </PropertyGroup>
-
 </Project>

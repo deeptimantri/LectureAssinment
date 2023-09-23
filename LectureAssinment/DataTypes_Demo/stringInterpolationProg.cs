@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.DataTypes_Demo
 {
-     class stringInterpolationProg
+    class stringInterpolationProg
     {
         static void Main(string[] args)
         {

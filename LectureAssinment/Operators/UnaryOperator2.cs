@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Operators
 {
-     class UnaryOperator2
+    class UnaryOperator2
     {
         static void Main(string[] args)
         {

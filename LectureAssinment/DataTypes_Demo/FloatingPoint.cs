@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.DataTypes_Demo
 {
-     class FloatingPoint
+    class FloatingPoint
     {
         static void Main(string[] args)
         {

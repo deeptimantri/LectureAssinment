@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Conditional_IFelse_Demo
 {
-     class IfElseDemo1
+    class IfElseDemo1
     {
         static void Main(string[] args)
         {
@@ -14,7 +14,7 @@ namespace LectureAssinment
             Console.WriteLine("enter 2 no ");
             a = Convert.ToInt32(Console.ReadLine());
             b = Convert.ToInt32(Console.ReadLine());
-            if(a >b)
+            if (a > b)
             {
                 Console.WriteLine("a is greater than B");
             }

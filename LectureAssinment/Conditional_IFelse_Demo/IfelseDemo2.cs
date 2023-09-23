@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Conditional_IFelse_Demo
 {
-     class IfelseDemo2
+    class IfelseDemo2
     {
         static void Main(string[] args)
         {
@@ -18,15 +18,15 @@ namespace LectureAssinment
             {
                 Console.WriteLine("a is greather");
             }
-            else if(a < b)
+            else if (a < b)
             {
                 Console.WriteLine("b is greater");
             }
             else
             {
-                Console.WriteLine("Both are equals"); 
+                Console.WriteLine("Both are equals");
             }
-          
+
         }
     }
 }

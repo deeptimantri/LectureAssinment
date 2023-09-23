@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Operators
 {
-     class TernaryOpe
+    class TernaryOpe
     {
         static void Main(string[] args)
         {
@@ -17,7 +17,7 @@ namespace LectureAssinment
             string result = a > b ? "A is greater than B" : "B is greater than A";
             //bool result = a > b ? true:false;
             //int res = a > b ? a : b;
-            Console.WriteLine( result);
+            Console.WriteLine(result);
 
             //Even Odd using ternary Operator
             int number = 12;
@@ -25,8 +25,8 @@ namespace LectureAssinment
             string ans = "";
 
             res = number % 2;
-            ans= res == 0 ? "Even" : "Odd";
-            Console.WriteLine( "Number is ="+ans);
+            ans = res == 0 ? "Even" : "Odd";
+            Console.WriteLine("Number is =" + ans);
         }
     }
 }

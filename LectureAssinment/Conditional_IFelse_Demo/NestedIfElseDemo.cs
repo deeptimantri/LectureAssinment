@@ -5,16 +5,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Conditional_IFelse_Demo
 {
-     class NestedIfElseDemo
+    class NestedIfElseDemo
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Enter 1st number");
             int n1 = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter 2nd number");
             int n2 = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter 3rd number");
             int n3 = Convert.ToInt32(Console.ReadLine());
 
@@ -22,7 +24,7 @@ namespace LectureAssinment
             {
                 if (n1 > n3)
                 {
-                    Console.WriteLine($"{n1} is greatest");
+                    Console.WriteLine($"{n1}is greatest");
                 }
                 else
                 {

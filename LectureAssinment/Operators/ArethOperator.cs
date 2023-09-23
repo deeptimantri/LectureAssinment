@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Operators
 {
     class ArethOperator
     {
@@ -14,23 +14,23 @@ namespace LectureAssinment
             int x = 10, y = 5;
 
             // Addition
-            result = (x + y);
+            result = x + y;
             Console.WriteLine("Addition Operator: " + result);
 
             // Subtraction
-            result = (x - y);
+            result = x - y;
             Console.WriteLine("Subtraction Operator: " + result);
 
             // Multiplication
-            result = (x * y);
+            result = x * y;
             Console.WriteLine("Multiplication Operator: " + result);
 
             // Division
-            result = (x / y);
+            result = x / y;
             Console.WriteLine("Division Operator: " + result);
 
             // Modulo
-            result = (x % y);
+            result = x % y;
             Console.WriteLine("Modulo Operator: " + result);
         }
     }

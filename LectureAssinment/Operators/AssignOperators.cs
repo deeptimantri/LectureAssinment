@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.Operators
 {
-     class AssignOperators
+    class AssignOperators
     {
         static void Main(string[] args)
         {

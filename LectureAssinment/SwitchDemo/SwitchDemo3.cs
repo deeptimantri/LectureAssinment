@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LectureAssinment
+namespace LectureAssinment.SwitchDemo
 {
     class SwitchDemo3
     {
@@ -14,7 +14,7 @@ namespace LectureAssinment
             Console.WriteLine("Enter an alphabet");
             ch = Convert.ToChar(Console.ReadLine());
 
-            switch (Char.ToLower(ch))
+            switch (char.ToLower(ch))
             {
                 case 'a':
                 case 'e':
