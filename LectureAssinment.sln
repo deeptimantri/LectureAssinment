@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectureAssinment", "LectureAssinment\LectureAssinment.csproj", "{C68D696E-BEFF-4200-9DAD-73D1234DEED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LectureAssignment", "LectureAssinment\LectureAssignment.csproj", "{C68D696E-BEFF-4200-9DAD-73D1234DEED9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
