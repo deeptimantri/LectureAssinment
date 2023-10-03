@@ -10,6 +10,7 @@ namespace LectureAssignment.DelegateAndEvents
      class DelegateDemo1
     {
         public delegate int MyDelegate(int x, int y);//1.Declare delegate
+        //Signature and return type of method must match with delegate signature and return type
         static void Main(string[] args)
         {
             Calculation c = new Calculation();

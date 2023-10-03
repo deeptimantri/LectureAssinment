@@ -11,6 +11,8 @@ namespace LectureAssignment.NonGenCollection
     {
         static void Main(string[] args)
         {
+            /*In C#, SortedList is a collection of key/value pairs which are sorted according to keys. 
+             * By default, this collection sort the key/value pairs in ascending order.*/
             SortedList list = new SortedList();
             list.Add(3, "Item1");
             list.Add(1, "Item2");

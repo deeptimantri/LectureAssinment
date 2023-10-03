@@ -22,6 +22,7 @@ namespace LectureAssignment.ExceptionHandling
                 int c = a / b;
                 Console.WriteLine($"division is {c}");
             }
+
             catch (DivideByZeroException ex)
             {
                 Console.WriteLine(ex.Message);
@@ -30,6 +31,7 @@ namespace LectureAssignment.ExceptionHandling
             {
                 Console.WriteLine("Error in the Program. " + ex.Message); // Message is propertyfrom Exception class
             }
+            
             finally
             {
                 Console.WriteLine("End of the program");

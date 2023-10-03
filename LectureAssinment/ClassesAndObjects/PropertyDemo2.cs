@@ -18,6 +18,15 @@ namespace LectureAssinment.ClassesAndObjects
 
             Console.WriteLine("Student Id =" + s1.Id);
             Console.WriteLine("Student name =" + s1.Name);
+
+
+
+
+
+            //student s2 = new student() { id = 1, marks = 200, name = "Student 1" };//Object initialiser
+
+            
+
             
         }
     }

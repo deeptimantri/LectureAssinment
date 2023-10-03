@@ -27,9 +27,11 @@ namespace LectureAssignment.ExceptionHandling
 
                 Console.WriteLine(ne.message);
             }
+            finally {
+            }
         }
     }
-    public class NegativeException :Exception
+    public class NegativeException :Exception//1)Create your custom exception class which must be derived from Exception class
     {
         public string message;
 
@@ -56,7 +58,7 @@ namespace LectureAssignment.ExceptionHandling
                 }
                 else
                 {
-                    throw new NegativeException("no must be positive");
+                    throw new NegativeException("no must be positive");//2)Use throw keyword to throw the exception
                 }
             }
         }
